@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    font-family: source-sans-pro, sans-serif;
+    background-image: url(/Atribut/wallpaperdetailcate.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 1000px;
+  }
+  
+  .header{
+    background-color: 121212;
+    display: flex;
+}
+
+.logo{
+width: 92%;
+}
+
+.logo img{
+  margin-top: 15px;
+  width: 5%;
+
+}
+
+
+.dropbtn {
+    background-color: #121212;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    height: 90px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: 121212;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  .dropdown:hover .dropbtn {color: 12212;}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.comic{
+    width: 25%;
+}
+
+.content img{
+    border-radius: 15px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.comic p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .sosmed i{
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+i:hover{
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    border-radius: 3px;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    border-radius: 3px;
+    width: 100%;
+    height: 100vh;
+  }
+}
